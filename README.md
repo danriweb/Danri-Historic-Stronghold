@@ -20,6 +20,14 @@ _A Minecraft Forge mod that replaces the vanilla stronghold with a darker, more 
 - 👁️ **Dangerous Mobs** — Stronger versions of monsters live here, much more dangerous than surface mobs
 - ⚔️ **Great Loot** — Valuable treasures await those brave enough to explore deep
 
+## History
+
+Long ago, an ancient civilization discovered something extraordinary deep beneath the stone—a portal to the End. They built a massive stronghold around it, channeling their armies through to explore this strange world. But the portal claimed many lives. As losses grew, the empty halls filled with tombs and graves.
+
+Then came catastrophe. A rival faction attacked the stronghold, seeking to control the portal for themselves. In the chaos of their final battle, a cataclysmic event shattered everything. The world itself seemed to break. All who lived here vanished without a trace—lost to time and mystery.
+
+The stronghold sank deeper into the earth, sealed away. But not all was lost to silence. Restless spirits still wander these halls, and ancient guardians—the Wardens—remain to protect what was once sacred. Now, centuries later, explorers still seek the treasures hidden in this forgotten place.
+
 ## Locations
 
 | Location               | Description                                                                                                              |
