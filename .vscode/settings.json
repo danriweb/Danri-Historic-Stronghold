@@ -1,0 +1,9 @@
+{
+  "[shellscript]": {
+    "editor.defaultFormatter": "timonwong.shellcheck",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "editor.formatOnSave": true,
+  "java.compile.nullAnalysis.mode": "disabled",
+}
