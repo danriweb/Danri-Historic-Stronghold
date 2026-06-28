@@ -1,0 +1,212 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "comment": "Pool 1: Raw iron ore — most common metal cargo",
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 2: Raw copper — secondary metal, plentiful",
+      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 3 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 24 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 3: Raw gold — less common, kept in transit",
+      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 2 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 10 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 4: Rare raw ores — emerald, lapis or even diamond ore scraps. One of these occasionally shows up",
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "weight": 45,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 8 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 30,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 12 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "weight": 15,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }
+          ]
+        },
+        {
+          "comment": "Lapis lazuli ore (raw form via silk touch implied — stored as block)",
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 6,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 8 } }
+          ]
+        },
+        {
+          "comment": "Emerald — very rare addition to cargo",
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+          ]
+        },
+        {
+          "comment": "Diamond — exceptionally rare shipment",
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 5: Stone varieties — mixed broken-out rock",
+      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 3 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "weight": 20,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8, "max": 32 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:granite",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diorite",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:andesite",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate",
+          "weight": 14,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tuff",
+          "weight": 8,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 16 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:calcite",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 12 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_basalt",
+          "weight": 5,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 2, "max": 12 } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "weight": 10,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 4, "max": 20 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 6: Cobblestone — always present, main bulk fill",
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8, "max": 32 } }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": "Pool 7: Cobbled deepslate — deep-level excavation rubble, always present",
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 8, "max": 32 } }
+          ]
+        }
+      ]
+    }
+  ]
+}

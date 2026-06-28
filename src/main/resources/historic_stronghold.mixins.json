@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.danriweb.historic_stronghold.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "historic_stronghold.refmap.json",
+  "mixins": [
+    "DisableVanillaStrongholdMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
