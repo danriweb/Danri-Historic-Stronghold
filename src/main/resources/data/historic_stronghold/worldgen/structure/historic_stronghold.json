@@ -16,5 +16,5 @@
   },
   "use_expansion_hack": false,
   "terrain_adaptation": "none",
-  "max_distance_from_center": 4048
+  "max_distance_from_center": 160
 }
