@@ -76,7 +76,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
-          "weight": 18,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -87,7 +87,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
-          "weight": 12,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -103,7 +103,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "weight": 16,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -114,7 +114,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "weight": 12,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -130,7 +130,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 10,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -141,7 +141,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 8,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -157,7 +157,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 10,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -168,7 +168,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 8,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -184,7 +184,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "weight": 10,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -195,7 +195,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "weight": 8,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -211,7 +211,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 10,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -222,7 +222,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 8,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -329,6 +329,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -337,6 +338,134 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": { "type": "minecraft:uniform", "min": 30, "max": 40 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": { "type": "minecraft:uniform", "min": 0.1, "max": 0.4 }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 30, "max": 40 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": { "type": "minecraft:uniform", "min": 0.1, "max": 0.4 }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 30, "max": 40 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": { "type": "minecraft:uniform", "min": 0.1, "max": 0.4 }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 30, "max": 40 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 25, "max": 36 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 25, "max": 36 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 25, "max": 36 },
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.25
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 25, "max": 36 },
               "treasure": false
             }
           ]
