@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src=".github/assets/logo-1024x1024.png" alt="Danri: Historic API" width="180"/>
+<img src=".github/assets/logo-1024x1024.png" alt="Danri: Historic Stronghold" width="180"/>
 
-# Danri: Historic API
+# Danri: Historic Stronghold
 
-_A Minecraft Forge API / Library for the Historic Mod Series, helping you create bigger and better dungeons and structures._
+_A Minecraft Forge mod that replaces the vanilla stronghold with a darker, more dangerous dungeon._
 
 </div>
 
@@ -12,17 +12,31 @@ _A Minecraft Forge API / Library for the Historic Mod Series, helping you create
 
 ## Overview
 
-**Danri: Historic API** is a library that makes Minecraft's structure generation more powerful. It helps you create huge, amazing underground dungeons and custom structures.
+**Danri: Historic Stronghold** replaces the vanilla End Portal stronghold with a completely custom structure — a huge underground fortress filled with unique rooms and powerful loot.
 
-> [!NOTE]
-> This API is currently in active development and will be continually expanded with new features, structure processors, and utilities in the future.
+## Overview Features
 
-## Current Features
+- 🏰 **Unique Fortress** — The only stronghold like this, replacing vanilla stronghold with a custom dungeon
+- 👁️ **Dangerous Mobs** — Stronger versions of monsters live here, much more dangerous than surface mobs
+- ⚔️ **Great Loot** — Valuable treasures await those brave enough to explore deep
 
-- 🏗️ **Smart Structure Placement** — Creates structures much faster and bigger than normal. Removes the 116-block size limit and uses advanced system to detect and prevent overlaps.
-- 🛡️ **Feature Protection** — Automatically protects your generated structures from being destroyed or overwritten by vanilla features like ores, geodes, and dripstone.
-- 📐 **Height Control** — Control exactly where pieces of your structure can spawn by setting minimum and maximum height values.
-- 💧 **Water Protection** — Keeps your blocks dry by preventing stairs, slabs, fences, and other blocks from being filled with water inside underground lakes.
+## History
+
+Long ago, an ancient civilization discovered something extraordinary deep beneath the stone—a portal to the End. They built a massive stronghold around it, channeling their armies through to explore this strange world. But the portal claimed many lives. As losses grew, the empty halls filled with tombs and graves.
+
+Then came catastrophe. A rival faction attacked the stronghold, seeking to control the portal for themselves. In the chaos of their final battle, a cataclysmic event shattered everything. The world itself seemed to break. All who lived here vanished without a trace—lost to time and mystery.
+
+The stronghold sank deeper into the earth, sealed away. But not all was lost to silence. Restless spirits still wander these halls, and ancient guardians—the Wardens—remain to protect what was once sacred. Now, centuries later, explorers still seek the treasures hidden in this forgotten place.
+
+## Locations
+
+| Location               | Description                                                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Warden Halls**       | Four sealed chambers, each guarded by a Warden. The apex of danger lurks in the dark                                     |
+| **Ancient Greenhouse** | An overgrown hall frozen in time, long forgotten beneath the stone. Nature reclaims what was lost                        |
+| **Burial Hall**        | A great vault of history. Here lies much wealth—but also great danger. This chamber demands respect and good preparation |
+| **Burial Chambers**    | Dark corridors lined with the remains of those who came before. Tread lightly among the fallen                           |
+| **End Portal Room**    | The gateway to the End, reimagined within the depths of the fortress. The final prize awaits                             |
 
 ## License
 
