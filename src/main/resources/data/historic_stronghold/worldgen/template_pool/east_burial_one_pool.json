@@ -1,0 +1,15 @@
+{
+  "name": "historic_stronghold:east_burial_one_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "historic_stronghold:east_burial_hall_one",
+        "projection": "rigid",
+        "processors": "historic_stronghold:cleansing_processes"
+      }
+    }
+  ]
+}
