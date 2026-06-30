@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "historic_stronghold",
+  "version": "${version}",
+  "name": "Danri: Historic Stronghold",
+  "description": "A complete replacement of the vanilla stronghold with an improved and more interesting version - Historic Stronghold.",
+  "authors": ["DanriWeb"],
+  "contact": {
+    "homepage": "https://t.me/danriweb"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.danriweb.historic_stronghold.HistoricStronghold"]
+  },
+  "mixins": ["historic_stronghold.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "historic_api": "*"
+  }
+}
