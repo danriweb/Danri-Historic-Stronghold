@@ -1,0 +1,15 @@
+{
+  "name": "historic_stronghold:north_burial_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "historic_stronghold:north_burial_corridor",
+        "projection": "rigid",
+        "processors": "historic_stronghold:cleansing_processes"
+      }
+    }
+  ]
+}

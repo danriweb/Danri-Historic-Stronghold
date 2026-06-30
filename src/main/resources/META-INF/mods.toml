@@ -1,0 +1,4 @@
+
+# Legacy Forge metadata file.
+# NeoForge loads mod metadata from src/main/templates/META-INF/neoforge.mods.toml.
+# This file is intentionally left empty to avoid conflicting metadata.
